@@ -1,0 +1,365 @@
+@charset "utf-8";
+@import http://fonts.googleapis.com/css?family=Raleway;
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0 none;
+}
+
+body {
+	background: none repeat scroll 0% 0% #EFEFEF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+/* Main container */
+.container-body {
+	min-height: 457px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: auto;
+}
+
+/* Header */
+.home-logo {
+	margin: 0, 0, 0, 0;
+	font-size: 40px;
+	border-radius: 0px 0px 0px 0px;
+	background:none repeat scroll 0% 0% #468499;
+	padding: 20px;
+}
+
+.estore-link {
+	text-decoration: none;
+	color: #fff;
+	cursor:pointer;
+}
+
+.estore-link:hover {
+	color:#D1D1D1;
+}
+
+/* Main container for container_up and down*/
+.container {
+	height: 200px;
+	width: 400px;
+	padding: 20px;
+	border-radius: 3px;
+	background-color: #ffffff;
+}
+
+/* Home page */
+.home-login a {
+	float: left;
+	text-decoration: none;
+	margin-left: 400px;
+	padding: 50px;
+	border-radius: 10px;
+	font-size: 30px;
+	background-color: #DFDFDF;
+	margin-top: 150px;
+	color: #333;
+	border:2px solid #ccc;
+	box-shadow: 0px 3px 0px 0px #343131;
+}
+
+.home-signup a {
+	float: right;
+	text-decoration: none;
+	margin-right: 350px;
+	padding: 50px;
+	border-radius: 10px;
+	font-size: 30px;
+	background-color: #DFDFDF;
+	margin-top: 150px;
+	color: #333;
+	border:2px solid #ccc;
+	box-shadow: 0px 3px 0px 0px #343131;
+}
+
+.home-signup:hover a:hover, .home-login:hover a:hover {
+	background: none repeat scroll 0% 0% #343131;
+	color: #ffffff;
+	text-decoration: none;
+	border:2px solid #343131;
+}
+
+/* Login page */
+.login-form {
+	width:300px;
+	float:left;
+	border-radius:10px;
+	border:2px solid #ccc;
+	padding:10px 40px 25px;
+	margin-top: auto;
+	margin-left: 35%;
+	margin-bottom: 30px;
+}
+
+input[type=input], input[type=password] {
+	width:99.5%;
+	padding:10px;
+	margin-top:8px;
+	border:1px solid #ccc;
+	padding-left:5px;
+	font-size:16px;
+}
+
+input[type=submit] {
+	width:105%;
+	background: none repeat scroll 0% 0% #0C7AC7;
+	color:#EFEFEF;
+	border:2px solid #0C7AC7;
+	padding:10px;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+
+input[type=submit]:hover {
+	box-shadow: 3px 3px 0px 0px #083E64;
+	padding: 10px 10px 10px 10px;
+	color: #fff;
+}
+
+.login-form h2 {
+	background:none repeat scroll 0% 0% #2BA142;
+	text-align:center;
+	border-radius:10px 10px 0 0;
+	margin:-10px -40px;
+	padding:15px;
+	color: #fff;
+}
+
+.register {
+	background: none repeat scroll 0% 0% #343131;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 3px;
+	border-radius: 3px;
+	border: ;
+}
+
+.register:hover {
+	background: none repeat scroll 0% 0% #335078;
+}
+
+/* Dashboard page #468499*/
+.dashboard-sidebar {
+	position: fixed;
+	background: none repeat scroll 0% 0% #363B3F;
+	top: 92px;
+	bottom: 27px;
+	left: 0px;
+	z-index: 1000;
+	display: block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: auto;
+	border-right: 1px solid #ccc;
+	width: 150px;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.username {
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.dashboard-sidebar ul {
+	margin-top: 9px;
+	list-style: none;
+	padding: 2px;
+	text-decoration: none;
+}
+
+.dashboard-sidebar ul li {
+	background-color: #468499;
+	padding: 5px;
+	border-radius: 0px 3px 3px 0px;
+	margin-top: 4px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.dashboard-sidebar ul li:hover {
+	background: none repeat scroll 0% 0% #DD4814;
+	box-shadow: 2px 0px 0px 0px #000;
+	padding: 5px;
+	color: #fff;
+}
+
+.dashboard-sidebar ul a {
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.dashboard-container {
+	text-align: left;
+	margin: 0px 20px auto 200px;
+	min-height: 456px;
+}
+
+.dashboard-container a {
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.section {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 15px 20px auto 0px;
+	text-align: center;
+	color: #468499;
+	padding: 10px 0px 0px 0px;
+	border-radius: 3px;
+}
+
+.section:hover {
+	box-shadow: 0px 0px 2px 1px #000;
+}
+
+.upload {
+	width: 600px;
+	height: 300px;
+	border-radius: 3px;
+}
+
+.upload input[type=submit] {
+	width:15%;
+	background: none repeat scroll 0% 0% #0C7AC7;
+	color:#EFEFEF;
+	border:2px solid #0C7AC7;
+	padding: 3px 10px 3px 10px;
+	font-size:15px;
+	cursor:pointer;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+
+.upload input[type=file] {
+	font-size:15px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.upload-success {
+	float: left;
+	margin-left: 27%;
+	width: 600px;
+	min-height: 375px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+/* Logout page */
+.logout-page {
+	float: left;
+	margin-left: 35%;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 30px 3px 30px 3px;
+}
+
+/* Footer */
+.footer {
+	font-size: 12px;
+	background:none repeat scroll 0% 0% #468499;
+	padding: 5px;
+	text-align: center;
+	color:#D1D1D1;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+/* General */
+.general-link {
+	text-decoration: none;
+	color: #DD4814;
+}
+
+.general-link:hover {
+	background: none repeat scroll 0% 0% #DD4814;
+	padding: 0px 5px 0px 5px;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.success {
+	color: #2BA142;
+	text-align: center;
+}
+
+/*Error message in form is displayed in red color*/
+.form-error {
+	color: red;
+}
+
+.file-title {
+	color: #468499;
+	text-decoration: none;
+}
+
+.file-title a {
+	color: #468499;
+}
+
+/* Display the files from the database */
+.display-file {
+	text-decoration: none;
+	color: black;
+	width: 95%;
+	min-height: 50%;
+	border:2px solid #ccc; 
+	border-radius: 3px;
+	padding: 10px 10px 5px 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.display-file a {
+	text-decoration: none;
+	color: black;
+}
+
+.display-file a:hover {
+	background: none repeat scroll 0% 0% #468499;
+	padding: 0px 5px 0px 5px;
+	border-radius: 1px;
+	color: #fff;
+}
+
+.display-file input[type=submit] {
+	margin-top: 2px;
+	width:15%;
+	background: none repeat scroll 0% 0% #DD4814;
+	color:#EFEFEF;
+	border:none;
+	padding: 3px 10px 3px 10px;
+	font-size:15px;
+	cursor:pointer;
+	border-radius:2px;
+}
+
+.display-file input[type=submit]:hover {
+	box-shadow: 3px 3px 0px 0px #000;
+	color: #fff;
+}
+
+.display-name {
+	float: left;
+	width: 80%;
+	height: 100%;
+	background: linear-gradient(#49708f, #293f50);
+}
