@@ -24,7 +24,6 @@ class Dashboard extends CI_Controller {
 			$this->load->view('templates/footer');
 		}
 		*/
-
 		if($this->input->cookie('estore_auth')!='') {
 	   		if($this->login_model->authentication()) {
 	   			$this->load->view('templates/header');
